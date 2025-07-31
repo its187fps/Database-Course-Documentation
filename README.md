@@ -35,3 +35,54 @@ In a typical database project, several roles work together to design, build, and
 
 - 🔹 Business Intelligence (BI) Developer  
   Creates dashboards, reports, and data visualizations. They transform raw data into meaningful insights for decision-making.
+
+  ## 4. Types of Databases
+
+There are several types of databases, each designed for specific needs and use cases. Below is a summary of the most common types:
+
+### 🔹 Relational vs. Non-Relational Databases
+
+- 🗂️ Relational Databases (RDBMS):  
+  - Store data in structured tables with rows and columns.  
+  - Use SQL (Structured Query Language) for querying.  
+  - Support relationships between tables (e.g., foreign keys).  
+  - Examples: MySQL, PostgreSQL, Oracle.
+
+- 📦 Non-Relational Databases (NoSQL):  
+  - Store data in flexible formats (documents, key-value pairs, graphs, etc.).  
+  - Do not require a fixed schema.  
+  - Often used for big data, real-time applications, or unstructured data.  
+  - Examples: MongoDB (document), Cassandra (wide-column), Redis (key-value), Neo4j (graph).
+
+---
+
+### 🔹 Centralized vs. Distributed vs. Cloud Databases
+
+- 🖥️ Centralized Database:  
+  - All data is stored and accessed from a single central location/server.  
+  - Easy to manage but limited scalability.  
+  - Example Use Case: Small office systems.
+
+- 🌐 Distributed Database:  
+  - Data is spread across multiple locations/servers, often geographically distributed.  
+  - Offers higher availability and performance.  
+  - Example Use Case: Global e-commerce platforms.
+
+- ☁️ Cloud Database:  
+  - Hosted and managed in the cloud by providers like AWS, Azure, or Google Cloud.  
+  - Scalable, accessible from anywhere, and managed as a service.  
+  - Examples: Amazon RDS, Azure SQL Database, Google Cloud Spanner.  
+  - Use Case: Web and mobile apps with variable traffic.
+
+---
+
+### 🔹 Use Case Examples
+
+| Database Type             | Example Systems or Applications                 |
+|---------------------------|--------------------------------------------------|
+| Relational (e.g., MySQL)  | Banking systems, school management, ERP systems |
+| Non-Relational (e.g., MongoDB) | Social media platforms, product catalogs        |
+| Distributed               | Online shopping platforms like Amazon           |
+| Cloud                     | SaaS apps, mobile backends, analytics systems   |
+
+
